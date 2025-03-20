@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <div class="header">
+            <div id="game-info">
+                <p>Moves: <span id="moves">0</span></p>
+                <p>Time: <span id="timer">0</span></p>
+            </div>
+
+            <h1>Memory Card Game</h1>
+
+            <button id="back-btn">Back</button>
+        </div>
+        <div id="difficulty-menu">
+            <h2>Select Difficulty</h2>
+            <button class="difficulty-btn" data-pairs="6">Easy</button>
+            <button class="difficulty-btn" data-pairs="14">Medium</button>
+            <button class="difficulty-btn" data-pairs="16">Hard</button>
+        </div>
+        <div id="game-board"></div>
+        <button id="restart-btn">Restart</button>
+    </div>
+    <script type="module" src="assets/scripts/script.js"></script>
+    <script type="module" src="assets/scripts/images.js"></script>
+</body>
+
+</html>
